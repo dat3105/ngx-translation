@@ -56,6 +56,20 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "en": {
+              "aot": true,
+              "i18nFile": "src/locale/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
+            },
+            "vn": {
+              "aot": true,
+              "i18nFile": "src/locale/messages.vn.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "vn",
+              "i18nMissingTranslation": "error"
             }
           }
         },
@@ -67,6 +81,12 @@
           "configurations": {
             "production": {
               "browserTarget": "parameters-ngx-translate:build:production"
+            },
+            "en": {
+              "browserTarget": "parameters-ngx-translate:build:en"
+            },
+            "vn":{
+              "browserTarget": "parameters-ngx-translate:build:en"
             }
           }
         },
@@ -119,6 +139,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "parameters-ngx-translate"
+    }
+  },
+  "defaultProject": "parameters-ngx-translate",
+  "cli": {
+    "analytics": false
+  }
 }

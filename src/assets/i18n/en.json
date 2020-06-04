@@ -1,0 +1,7 @@
+{
+    "header":{
+        "header1":"this is first language",
+        "header2":"đây là ngôn ngữ thứ nhất"
+    },
+    "title":"This is the 2nd language you can switch immediately between {{tiengviet}} and {{english}}"
+}
